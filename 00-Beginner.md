@@ -6,11 +6,33 @@ By the end of this section, you will be able to:
 1. Join tables to retrieve data across a database
 1. Add, change, and delete data in a table
 
-### Pre-Test
-https://www.w3schools.com/sql/sql_quiz.asp
 
-### Assessment 
+### Assessment Solutions
 * [Daily Challenge 1](https://www.sqlprep.com/sc_dailychallenge/daily-challenge-1/)
+
+```sql
+SELECT customerName
+FROM customers c
+WHERE EXISTS 
+    (SELECT 1
+    FROM payments p
+    WHERE p.customerNumber = c.customerNumber
+        AND amount > 100000)
+```
+
+
 * [Daily Challenge 4](https://www.sqlprep.com/sc_dailychallenge/daily-challenge-4/)
+
+```sql
+SELECT  firstname, lastname, jobtitle
+FROM employees
+WHERE jobtitle ='Sales Rep'
+```
+
+
 * [Daily Challenge 15](https://www.sqlprep.com/sc_dailychallenge/daily-challenge-15) 
 
+```sql
+SELECT DISTINCT country
+FROM customers
+```
