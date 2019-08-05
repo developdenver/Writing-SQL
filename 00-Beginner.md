@@ -10,4 +10,7 @@ By the end of this section, you will be able to:
 https://www.w3schools.com/sql/sql_quiz.asp
 
 ### Assessment 
-[Daily Challenge](https://www.sqlprep.com/sc_dailychallenge) 1, 4, 15 (distinct)
+* [Daily Challenge 1](https://www.sqlprep.com/sc_dailychallenge/daily-challenge-1/)
+* [Daily Challenge 4](https://www.sqlprep.com/sc_dailychallenge/daily-challenge-4/)
+* [Daily Challenge 1](https://www.sqlprep.com/sc_dailychallenge/daily-challenge-15) 
+
