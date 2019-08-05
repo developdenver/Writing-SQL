@@ -12,5 +12,5 @@ https://www.w3schools.com/sql/sql_quiz.asp
 ### Assessment 
 * [Daily Challenge 1](https://www.sqlprep.com/sc_dailychallenge/daily-challenge-1/)
 * [Daily Challenge 4](https://www.sqlprep.com/sc_dailychallenge/daily-challenge-4/)
-* [Daily Challenge 1](https://www.sqlprep.com/sc_dailychallenge/daily-challenge-15) 
+* [Daily Challenge 15](https://www.sqlprep.com/sc_dailychallenge/daily-challenge-15) 
 
