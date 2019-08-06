@@ -1,0 +1,74 @@
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 9.5.4
+-- Dumped by pg_dump version 9.5.4
+
+--
+-- Name: attendee; Type: TABLE; Schema: public; Owner: developdenver
+--
+
+CREATE TABLE attendee (
+    id serial,
+    name text,
+    title text
+);
+
+--
+-- Name: enrollment; Type: TABLE; Schema: public; Owner: developdenver
+--
+
+CREATE TABLE enrollment (
+    id serial,
+    course_id integer,
+    student_id integer
+);
+
+--
+-- Name: course; Type: TABLE; Schema: public; Owner: developdenver
+--
+
+CREATE TABLE course (
+    id serial,
+    course_name text,
+    credits integer
+);
+
+
+--
+-- Data for Name: attendee; Type: TABLE DATA; Schema: public; Owner: developdenver
+--
+
+INSERT INTO attendee (id, name, title) VALUES
+(1, 'Cassandra Torske', 'Software Developer and Educator'),
+(2, 'Ken Lee', 'Frontend Developer'),
+(3, 'Michael Dusing', 'UX Designer'),
+(4, 'Steve Ham', 'JavaScript/PHP dev'),
+(5, 'Catherine Schlesinger', 'Devops Engineer');
+
+--
+-- Data for Name: enrollment; Type: TABLE DATA; Schema: public; Owner: developdenver
+--
+
+INSERT INTO enrollment (id, course_id, student_id) VALUES
+(1, 1, 1),
+(2, 1, 2),
+(3, 2, 4),
+(4, 1, 3),
+(5, 4, 4);
+
+--
+-- Data for Name: course; Type: TABLE DATA; Schema: public; Owner: developdenver
+--
+
+INSERT INTO course (id, course_name, credits) VALUES
+(1, 'Calculus', 3),
+(2, 'Chemistry', 2),
+(3, 'English History', 1),
+(4, 'Marketing', 3),
+(5, 'Advanced Fluid Dynamics', 5);
+
+--
+-- PostgreSQL database dump complete
+--

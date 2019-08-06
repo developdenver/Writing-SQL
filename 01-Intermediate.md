@@ -1,8 +1,7 @@
 # Learning Objectives
-## Functions and Operators
-By the end of this workshop, you will be able to…
+## Joins, Functions and Operators
+By the end of this workshop, you will be able to:
 1. Join tables to retrieve data across a database
-1. Add, change, and delete data in a table
 1. Display data using aggregate functions and arithmetic operators
 1. Filter data using logical operators and comparison operators
 1. Filter aggregated data using comparison operators
