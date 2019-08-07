@@ -6,68 +6,51 @@
 -- Dumped by pg_dump version 9.5.4
 
 --
--- Name: attendee; Type: TABLE; Schema: public; Owner: developdenver
+-- Name: attendees; Type: TABLE; Schema: public; Owner: developdenver
 --
 
-CREATE TABLE attendee (
+CREATE TABLE attendees (
     id serial,
     name text,
     title text
 );
 
 --
--- Name: enrollment; Type: TABLE; Schema: public; Owner: developdenver
+-- Name: talk_submissions; Type: TABLE; Schema: public; Owner: developdenver
 --
 
-CREATE TABLE enrollment (
+CREATE TABLE talk_submissions (
     id serial,
-    course_id integer,
-    student_id integer
+    title text,
+    attendee_id integer
 );
 
 --
--- Name: course; Type: TABLE; Schema: public; Owner: developdenver
+-- Data for Name: attendees; Type: TABLE DATA; Schema: public; Owner: developdenver
 --
 
-CREATE TABLE course (
-    id serial,
-    course_name text,
-    credits integer
-);
-
-
---
--- Data for Name: attendee; Type: TABLE DATA; Schema: public; Owner: developdenver
---
-
-INSERT INTO attendee (id, name, title) VALUES
-(1, 'Cassandra Torske', 'Software Developer and Educator'),
-(2, 'Ken Lee', 'Frontend Developer'),
-(3, 'Michael Dusing', 'UX Designer'),
-(4, 'Steve Ham', 'JavaScript/PHP dev'),
-(5, 'Catherine Schlesinger', 'Devops Engineer');
+INSERT INTO attendees (id, name, title) VALUES
+(1, "Cassandra Torske", "Software Developer and Educator"),
+(2, "Ken Lee", "Frontend Developer"),
+(3, "Michael Dusing", "UX Designer"),
+(4, "Steve Ham", "JavaScript/PHP dev"),
+(5, "Catherine Schlesinger", "Devops Engineer");
 
 --
--- Data for Name: enrollment; Type: TABLE DATA; Schema: public; Owner: developdenver
+-- Data for Name: talk_submissions; Type: TABLE DATA; Schema: public; Owner: developdenver
 --
 
-INSERT INTO enrollment (id, course_id, student_id) VALUES
-(1, 1, 1),
-(2, 1, 2),
-(3, 2, 4),
-(4, 1, 3),
-(5, 4, 4);
-
---
--- Data for Name: course; Type: TABLE DATA; Schema: public; Owner: developdenver
---
-
-INSERT INTO course (id, course_name, credits) VALUES
-(1, 'Calculus', 3),
-(2, 'Chemistry', 2),
-(3, 'English History', 1),
-(4, 'Marketing', 3),
-(5, 'Advanced Fluid Dynamics', 5);
+INSERT INTO talk_submissions (id, title, attendee_id) VALUES
+(1, "UI Design for VR", 1),
+(2, "Divide and Conquer With Micro Frontends", 2),
+(3, "Covered Bridges: Using your social capital to make a difference", 3),
+(4, "Three things I wish I'd known when I was a new developer", 4),
+(5, "Visual Testing with Cypress", 5),
+(6, "React Hooks: The what, why, and how", 4),
+(7, "Writing ES6 Modules you can test", 3),
+(8, "Mind the Gap: Improving Diversity in Tech", 3),
+(9, "UX Principles to Grow Your Career", 1),
+(10, "Networking for Introverts", 2);
 
 --
 -- PostgreSQL database dump complete
