@@ -1,5 +1,5 @@
 # Learning Objectives
-## Joins, Functions and Operators
+## Aliases, Joins, Functions and Operators
 By the end of this section, you will be able to:
 1. Rename a column and table using an alias 
 1. Join tables to retrieve data across a database
@@ -13,10 +13,10 @@ You can complete the 3 assessment items for the [Beginning Workshop](./00-Beginn
 
 ### Lesson 
 Objective 1: **Rename a column and table using an alias**
-* (SQL `AS`)[https://www.w3schools.com/sql/sql_ref_as.asp]
+* [SQL `AS`](https://www.w3schools.com/sql/sql_ref_as.asp)
     * Complete at least one exercise to rename a column, and another to rename a table.
 
-Objective 2: **1. Join tables to retrieve data across a database** 
+Objective 2: **Join tables to retrieve data across a database** 
 * [Multi-table queries with JOINs](https://sqlbolt.com/lesson/select_queries_with_joins)
     * Complete the 3 tasks at the bottom of the page.
 * [OUTER JOINs](https://sqlbolt.com/lesson/select_queries_with_outer_joins)
@@ -27,6 +27,7 @@ Objective 3: **Display data using the arithmetic operators `+`, `-`, `*` `/ ` an
     * Complete the 3 tasks at the bottom of the page. 
 
 Objective 4: **Display data using the aggregate functions `COUNT`, `MIN`, `MAX`, `AVG`, `SUM`, `GROUP BY`** 
+
 Objective 5: **Filter aggregated data using `HAVING` and `GROUP BY`**
 * [Queries with aggregates (Pt. 1)](https://sqlbolt.com/lesson/select_queries_with_aggregates)
     * Complete the 3 tasks at the bottom of the page. 
