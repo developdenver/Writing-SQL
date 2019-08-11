@@ -5,6 +5,7 @@ By the end of this workshop, you will be able to
 1. Clearly phrase questions or problems you are having with SQL
 1. Create sample tables to illustrate a question
 1. Adapt solutions proposed by others
+1. Change the display of data using case and isnull
 
 ## Prompts for problems or discussions
 ### SQL Daily Challenges

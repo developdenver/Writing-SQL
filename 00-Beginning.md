@@ -7,8 +7,8 @@ By the end of this section, you will be able to:
     * `SELECT`, `FROM`, `WHERE`, `AND`, `BETWEEN`, `NOT BETWEEN`, `>`, `<`, `=`, `!=`, and `DISTINCT`
 1. Explain how to read an entity relationship diagram (ERD)
 
-### Pre-Test
-* [SQL Quiz](https://www.w3schools.com/sql/sql_quiz.asp)
+### Prerequisites
+* No SQL experience needed! 
 
 ### Lesson 
 Objective 1: **Describe the structure of a SQL query**
