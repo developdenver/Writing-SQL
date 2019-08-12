@@ -8,7 +8,7 @@ By the end of this section, you will be able to:
 1. Explain how to read an entity relationship diagram (ERD)
 
 ### Prerequisites
-* No SQL experience needed! 
+* No SQL experience needed! Welcome! 
 
 ### Lesson 
 Objective 1: **Describe the structure of a SQL query**
