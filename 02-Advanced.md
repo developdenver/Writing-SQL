@@ -1,5 +1,8 @@
 # Advanced Workshop
 
+### Prerequisites
+You can complete the 3 assessment items for the [Intermediate Module](./00-Intermediate.md).
+
 The Advanced Workshop is 'Choose Your Own Adventure.' You can choose to work through one of the options, or try all three. Have fun. 😀
 
 ## Option 1: Build a database and use sql queries to analyze the dataset. 
