@@ -1,5 +1,6 @@
-# Learning Objectives
+# Intermediate
 ## Aliases, Joins, Functions and Operators
+
 By the end of this section, you will be able to:
 1. Rename a column and table using an alias 
 1. Join tables to retrieve data across a database
