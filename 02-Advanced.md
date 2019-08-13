@@ -1,7 +1,7 @@
 # Advanced Workshop
 
 ### Prerequisites
-You can complete the 3 assessment items for the [Intermediate Module](./01-Intermediate.md).
+You can complete the 4 assessment items for the [Intermediate Module](./01-Intermediate.md).
 
 ### A Note 
 The Advanced Workshop is 'Choose Your Own Adventure.' You can choose to work through one of the options, or try all three. Have fun. 😀
