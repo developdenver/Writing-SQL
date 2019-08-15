@@ -1,5 +1,5 @@
 # Welcome to the Writing SQL Workshop!
-## Beginner Learning Objectives: Basic SQL Statements
+## Beginner Workshop: Basic SQL Statements
 By the end of this section, you will be able to: 
 1. Describe the structure of a SQL query 
 1. Query a table to retrieve existing data
@@ -9,7 +9,7 @@ By the end of this section, you will be able to:
 ### Prerequisites
 * No SQL experience needed! Welcome!
 
-## Intermediate LEarning Objectives: Aliases, Joins, Functions and Operators
+## Intermediate Workshop: Aliases, Joins, Functions and Operators
 By the end of this section, you will be able to:
 1. Rename a column and table using an alias 
 1. Join tables to retrieve data across a database
@@ -20,8 +20,8 @@ By the end of this section, you will be able to:
 ### Prerequisites
 You can complete the 3 assessment items for the [Beginning Workshop](./00-Beginning.md).
 
-## Advanced Workshop: Learning Objectives
-The Advanced Workshop is 'Choose Your Own Adventure.' You can choose to work through one of the options, or try all three. Have fun.
+## Advanced Workshop: Choose Your Own Adventure
+You can choose to work through one of the options, or try all three. Have fun.
 ### Prerequisites
 You can complete the 4 assessment items for the [Intermediate Module](./01-Intermediate.md)
  
