@@ -1,5 +1,13 @@
 Welcome to the Writing SQL Workshop!
 Beginner Learning Objectives:
-1. Describe the structure of a SQL query.
-1. Query a table to retrieve existing data.
-1. Filter data in a query using basic operators, including:
+## Basic SQL Statements
+By the end of this section, you will be able to: 
+1. Describe the structure of a SQL query 
+1. Query a table to retrieve existing data
+1. Filter data in a query using basic operators, including: 
+    * `SELECT`, `FROM`, `WHERE`, `AND`, `BETWEEN`, `NOT BETWEEN`, `>`, `<`, `=`, `!=`, and `DISTINCT`
+1. Explain how to read an entity relationship diagram (ERD)
+
+### Prerequisites
+* No SQL experience needed! Welcome!
+
